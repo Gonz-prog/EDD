@@ -1,0 +1,14 @@
+mkdir provagit
+cd prvagit
+git config user.name(email) "Gonzalo(gonsei20@gmail.com)"
+git init
+git status
+vim prova.txt
+git add prova.txt
+git status
+git commit prova.txt -m "Primera versió del projecte"
+git log --online
+git resume
+git diff
+git diff --cached
+git checkout(nombre del commit del projecte) -- prova.txt
